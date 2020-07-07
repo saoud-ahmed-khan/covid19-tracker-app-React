@@ -1,0 +1,24 @@
+.countryPicker{
+    width: 40%;
+    margin:  auto;
+    font-size: 40px;
+    border: 2px solid black;
+    margin-top: 20px;
+
+}
+.nativeSelect{
+   
+    margin: 0 auto;
+    text-align: center;
+    margin-top:90px ;
+    
+}
+.heading
+{
+    color: #0a809e;
+    line-height: 0px;
+    font-size: 40px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+   
+}

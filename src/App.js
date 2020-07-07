@@ -1,26 +1,25 @@
+
 import React from 'react';
-import logo from './logo.svg';
+import Header from "../src/header/header";
+import { CovidProvider } from "../src/context/covidcontext";
+import {CardsData }  from "../src/cardData/CardsData";
+import CountrySelector from "../src/CountrySelector/CountrySelector";
+import { CountryData } from "./CountryData/CountryData";
+import Map from "../src/map/map";
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header></Header>
+      <CovidProvider>     
+        <CardsData></CardsData>
+        <CountrySelector></CountrySelector>
+        <CountryData></CountryData>
+        <Map></Map>
+      </CovidProvider>
     </div>
-  );
+  )
 }
 
 export default App;

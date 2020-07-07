@@ -1,0 +1,21 @@
+.b
+{
+    background-color: blue;
+}
+.DEATHS
+{
+  background-color: red;
+  color: black;
+}
+
+.RECOVERED
+{
+    background-color: green;
+    color: black;
+}
+
+.CONFIRMED
+{
+    background-color: blue;
+    color: black;
+}
