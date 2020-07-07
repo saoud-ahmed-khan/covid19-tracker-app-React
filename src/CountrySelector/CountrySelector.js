@@ -10,7 +10,7 @@ const CountrySelector = ()=>{
      const allCountries = CountryName.countries ? CountryName.countries : []
     return(
         <div className = "nativeSelect">
-          <h1 className="heading">  Select Country for detail</h1>
+          <h2 className="heading">Select Country</h>
             <NativeSelect  variant="filled" onChange = {(e)=> seturl(e.target.value)} className = 'countryPicker'>
               <option value="">Select Country</option>
               {allCountries.map((country)=> <option key={country.name} value={country.name}>{country.name}</option>)}
