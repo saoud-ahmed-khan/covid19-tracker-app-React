@@ -16,6 +16,7 @@ export default function Map() {
         zoom: 3.5,
       });
     return (
+        <Grid direction="row" justify="center" alignItems="center">
        <Grid item xs={12}> 
       <ReactMapGL 
         mapStyle="mapbox://styles/mapbox/light-v9"
@@ -38,6 +39,7 @@ export default function Map() {
             
         )}
     </ReactMapGL>
+        </Grid>
         </Grid>
     )
 }
