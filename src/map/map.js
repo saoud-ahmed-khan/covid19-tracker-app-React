@@ -16,7 +16,7 @@ export default function Map() {
         zoom: 3.5,
       });
     return (
-       <Grid> 
+       <Grid item xs={12}> 
       <ReactMapGL 
         mapStyle="mapbox://styles/mapbox/light-v9"
         {...viewport} 
